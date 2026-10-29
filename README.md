@@ -1,6 +1,6 @@
 # E-Commerce Order Management System (SQL)
 
-A relational database project built in **pure SQL (MySQL 8+)** that models an online store: customers, products, orders, order items, and payments. It includes sample data and 15 analytical queries for sales reporting.
+A relational database project built in **pure SQL (MySQL)** that models an online store: customers, products, orders, order items, and payments. It includes sample data and 15 analytical queries for sales reporting.
 
 
 ---
@@ -132,10 +132,10 @@ erDiagram
 1. Install MySQL 8.0+ and MySQL Workbench.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/nadargeAnkita/ecommerce-order-management-sql.git
-   cd ecommerce-order-management-sql
+   git clone [https://github.com/nadargeAnkita/ecommerce-order-management-sql.git](https://github.com/nadargeAnkita/E-Commerce-Order-Management-System-.git)
+   cd E_Comm_Analysis.sql
    ```
-3. Open `ecommerce_order_management.sql` in MySQL Workbench.
+3. Open `E_Comm_Analysis.sql` in MySQL Workbench.
 4. Run the full script. It will:
    - create the `ecommerce_db` database
    - create all tables, indexes, and views
@@ -147,9 +147,8 @@ erDiagram
 ## Project Structure
 
 ```
-ecommerce-order-management-sql/
-├── ecommerce_order_management.sql   # Schema, data, views, queries
-├── er_diagram.png                   # ER diagram image (optional)
+├── E_Comm_Analysis.sql              # Schema, data, views, queries
+├── er_diagram.png                   # ER diagram image
 └── README.md
 ```
 
